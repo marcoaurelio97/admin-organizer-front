@@ -1,15 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Login from './components/login/Login';
-import { BrowserRouter, Switch, Route } from 'react-router-dom'
-import './index.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import App from './App';
 
 ReactDOM.render(
-  <BrowserRouter>
-    <Switch>
-      <Route path="/" exact={true} component={Login} />
-    </Switch>
-  </ BrowserRouter>
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
   , document.getElementById('root')
 );

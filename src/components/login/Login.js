@@ -1,14 +1,12 @@
 import React from 'react';
-import { Card, CardBody, Row, Col } from 'reactstrap';
+import { Card, CardBody } from 'reactstrap';
 import './Login.css';
 
 function Login() {
   return (
-    <Card className="App">
-      <CardBody className="App-header">
-        teste
-      </CardBody>
-    </Card>
+    <div className='view'>
+      <h1>Aloooo</h1>
+    </div>
   );
 }
 
